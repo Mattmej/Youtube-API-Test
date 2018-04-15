@@ -109,7 +109,7 @@ $(document).ready(function() {
             var videoId = item.snippet.resourceId.videoId;
 
             var videoLink = $("<iframe class = 'display'></iframe>");
-            $(videoLink).attr("src", "http://www.youtube.com/embed/" + videoId);
+            $(videoLink).attr("src", "https://www.youtube.com/embed/" + videoId);
 
             $("#vid-display").append(videoLink);
             
